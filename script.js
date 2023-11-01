@@ -13,7 +13,7 @@ function encontrarNumero(){
         return
     }
     if (numero === numeroAzar){
-        mensaje.textContent="Ganaste, hacertaste el numero";
+        mensaje.textContent="Ganaste, acertaste el numero";
         mensaje.style.color="blue";
         return
     }else if(numero < numeroAzar){
